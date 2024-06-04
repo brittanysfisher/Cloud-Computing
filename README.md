@@ -1,5 +1,6 @@
 # Cloud-Computing
 
+```
 mkdir running-hadoop
 
 cd running-hadoop
@@ -82,17 +83,22 @@ ls -al
 
 wc austen.txt
 
+```
+
 ** In separate terminal on local device **
 
+```
 cd running-hadoop/wxw/docker-hadoop/
 
 ls
 
 docker cp WordCount.jar namenode:/app/jars/
 
-
+```
 
 ** Back to original terminal **
+
+```
 
 cd /
 
@@ -122,7 +128,11 @@ hdfs dfs -copyToLocal /out-1 /app/res/
 
 head /app/res/out-1/part-r-00000
 
+```
+
 ** Back to local device in separate terminal **
+
+```
 
 cd ../..
 
@@ -137,3 +147,5 @@ docker cp namenode:/app/res/out-1/part-r-00000 wordscounted.txt
 ls
 
 head wordscounted.txt
+
+```
