@@ -83,6 +83,7 @@ wc austen.txt
 ```
 
 ** In separate terminal on local device **
+
 16. Move into appropriate directory listed below, copy the WordCount.jar from the wxw diretory, and copy it into the namenode app/jars directory.
 ```
 cd running-hadoop/wxw/docker-hadoop/
@@ -91,6 +92,7 @@ docker cp WordCount.jar namenode:/app/jars/
 ```
 
 ** Back to original terminal **
+
 17. Move back to the top directory and load data in HDFS
 ```
 cd /
@@ -114,6 +116,7 @@ head /app/res/out-1/part-r-00000
 ```
 
 ** Back to local device in separate terminal **
+
 20. cd to desired directory in local device and make a new "notes" directory. Copy the results from previous step to notes directory.
 ```
 cd ../..
