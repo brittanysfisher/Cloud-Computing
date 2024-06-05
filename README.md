@@ -1,4 +1,4 @@
-# Cloud-Computing - Running Hadoop
+# Running Hadoop
 
 1. Make a working directory
 ```
